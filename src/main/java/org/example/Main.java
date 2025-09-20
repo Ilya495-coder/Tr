@@ -9,7 +9,7 @@ public class Main {
         cryptoPayment.processPayment();
         payment.processPayment();
         payPalPayment.processPayment();
-        System.out.println("=================================");
+        System.out.println("===============================");
         payment.refund();
         payPalPayment.refund();
     }
